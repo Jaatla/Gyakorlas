@@ -1,0 +1,8 @@
+{
+"menuItems":
+    [
+        {"link":"login", "text":"Belépés"},
+        {"link":"registration", "text":"Regisztrálás"},
+        {"link":"products", "text":"Termékeink"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "menuItems":
+        [
+            {"link":"login", "text":"Login"},
+            {"link":"registration", "text":"Registration"},
+            {"link":"products", "text":"Products"}
+        ]
+    }
