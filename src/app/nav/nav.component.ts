@@ -14,7 +14,7 @@ export class NavComponent {
 
   constructor(private config:ConfigService){
     this.config.getLinks().subscribe(
-      (res:any)=>this.links=res
+      (res:any)=>this.links=res["menuItems"]
     )
   }
 

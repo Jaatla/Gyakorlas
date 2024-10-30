@@ -1,1 +1,13 @@
-<p>products-list works!</p>
+<!-- {{albums|json}} -->
+ <!-- {{columns|json}} -->
+ <div class="row">
+    <div *ngFor="let oszlop of columns" class="col">
+        {{oszlop.text}}
+    </div>
+ </div>
+
+ <div *ngFor="let album of albums" class="row">
+    <div *ngFor="let oszlop of columns" class="col">
+        {{album[oszlop.key]}}
+    </div>
+ </div>

@@ -4,5 +4,10 @@
         {"link":"login", "text":"Belépés"},
         {"link":"registration", "text":"Regisztrálás"},
         {"link":"products", "text":"Termékeink"}
+    ],
+"columns":[
+    {"key":"userId", "text":"Felhasználói Azonosító","type":"number"},
+    {"key":"id", "text":"Azonosító","type":"number"},
+    {"key":"title", "text":"Címke","type":"text"}
     ]
 }

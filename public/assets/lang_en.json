@@ -4,5 +4,11 @@
             {"link":"login", "text":"Login"},
             {"link":"registration", "text":"Registration"},
             {"link":"products", "text":"Products"}
-        ]
+        ],
+        
+    "columns":[
+    {"key":"userId", "text":"User Id","type":"number"},
+    {"key":"id", "text":"Id","type":"number"},
+    {"key":"title", "text":"Title","type":"text"}
+    ]
     }

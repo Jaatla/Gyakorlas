@@ -15,7 +15,7 @@ export class ConfigService {
 
    private loadConfigJson(lang:string){
     this.http.get("assets/lang_"+lang+".json").subscribe(
-      (res:any)=> this.menuItems.next(res['menuItems'])
+      (res:any)=> this.menuItems.next(res)
     )
    }
 
